@@ -1,0 +1,138 @@
+body{
+    background-image: url("water.png");
+}
+*{
+    margin: 0px;
+ }
+/* * #navbar{
+    margin-top: 5px;
+    border-radius: 10px;
+    height:60px;
+    width:100%;
+    opacity:0.2;
+    backdrop-filter:blur(150px);
+    background-color: black;
+    background:linear-gradient( to right ,#a4c1fb,rgb(109, 129, 244));
+     box-shadow: 0 0 0 2px;
+     display: flex;
+   justify-content:end; 
+     
+} */
+/* .nav{
+    margin-top: 10px;
+    height:40px;
+    width:90px;
+   
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+   
+
+
+} */
+/* .nav:hover{
+    border:2px solid rgb(56, 106, 198)
+}  */
+#navbar{
+    list-style: none;
+    height:55px;
+    width:auto;
+   border-width: 30px;
+   /* border-bottom: solid black; */
+  background:linear-gradient(to right ,#8da1d9,#5870c7,#8da1d9) ;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+  color: #2d1a16;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    /* border-radius: 8px; */
+  
+  
+  }
+  .main:hover{
+    background-color:#2845b1;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor:pointer;
+    
+    
+    }
+ 
+  /* #nav:hover{
+  transform: scale(1.2);
+  
+  
+  box-shadow: 0 0 10px #0000 ;
+  } */ 
+  .main{
+  width:80px;
+  height: 50px;
+  /* color:#2d1a16; */
+  text-decoration: none;
+  /* background-color: antiquewhite; */
+    margin-right:130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    /* box-shadow: 0 0 3px #2d1a16; */
+  }
+  #contact{
+    margin-right: 20px;
+    width:84px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  a{
+   text-decoration:none;
+   
+  }
+  .contact:hover{
+    
+    background-color: #2845b1;
+    border-radius: 10px;
+    color: #ffffff;
+    cursor:pointer;
+  }
+  #para{
+    height: 200px;
+    width:400px;
+    /* background-color: #8da1d9; */
+    margin-top: 30px;
+    margin-left: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color:#506ebe
+    
+
+  }
+  p{
+    line-height:1.5;
+  }
+  #head{
+    margin-top: 80px;
+    margin-left: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color:#2845b1;
+
+  }
+  button{
+    height:50px;
+    width:150px;
+    background-color: #8da1d9;
+    color:#2845b1;
+    font-size: 20px;
+    border-radius: 6px;
+    border-color:#8da1d9;
+    box-shadow:0 0 0#5870c7;
+    margin-left: 120px;
+    margin-top: 30px;
+  }
